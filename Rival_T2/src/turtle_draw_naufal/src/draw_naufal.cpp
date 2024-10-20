@@ -76,7 +76,7 @@ int main(int argc, char **argv) {
     ros::service::waitForService("/turtle1/set_pen");
 
     moveTurtle(velocity_publisher, pen_client, 2.0, 4.5, 225.0, false);
-    moveTurtle(velocity_publisher, pen_client, 2.0, 1.5, -75.0, true);
+    moveTurtle(velocity_publisher, pen_client, 2.0, 1.5, -85.0, true);
     moveTurtle(velocity_publisher, pen_client, 2.0, 1.80, 210.0, true);
     moveTurtle(velocity_publisher, pen_client, 2.0, 1.50, 130.0, true);
 
